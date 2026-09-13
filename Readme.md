@@ -47,6 +47,8 @@ Development Container
    ├── Dependencies
    └── VS Code Extensions
 ```
+[0.3 Dev Container Architecture](theory/module_0/0.3_dev_container_architecture.md)
+
 
 ### 0.4 Dev Container Lifecycle
 
@@ -68,6 +70,7 @@ VS Code attaches
 Start Development
 ```
 
+[0.4 Dev Container Lifecycle](theory/module_0/0.4_dev_container_lifecycle.md)
 ---
 
 # Module 1 — Prerequisites
