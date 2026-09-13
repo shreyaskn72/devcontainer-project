@@ -22,6 +22,8 @@ The goal can be: **take a normal application → containerize the development en
 * Why Docker alone isn't enough
 * Reproducible development environments
 
+[0.2 What is a Dev Container?](theory/module_0/0.2_what_is_dev_container.md)
+
 ### 0.3 Dev Container Architecture
 
 ```text
