@@ -84,6 +84,9 @@ Start Development
 * Dockerfile
 * Docker Compose
 
+
+[1.1 Docker Fundamentals](theory/module_1/1.1_docker_fundamentals.md)
+
 ### 1.2 VS Code Fundamentals
 
 * Extensions
