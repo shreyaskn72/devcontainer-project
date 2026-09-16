@@ -1,14 +1,14 @@
 {
   "name": "Python Dev Container",
-
-  "image": "mcr.microsoft.com/devcontainers/python:3.12",
-
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
     }
   },
-
   "customizations": {
     "vscode": {
       "extensions": [
@@ -17,11 +17,7 @@
       ]
     }
   },
-
   "forwardPorts": [
     8000
-  ],
-
-  "postCreateCommand": "pip install -r requirements.txt",
-  "postStartCommand": "cd app && python main.py"
+  ]
 }
