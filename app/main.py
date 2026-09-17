@@ -2,6 +2,10 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({"message": "API is running", "endpoint": "/api/hello"})
+
 @app.route('/api/hello', methods=['GET'])
 def hello_world():
     # jsonify automatically format the dictionary as a JSON response
