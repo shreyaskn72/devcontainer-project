@@ -159,6 +159,10 @@ pip --version
 
 Then run the application **inside the container**.
 
+[module 2 tag](https://github.com/shreyaskn72/devcontainer-project/tree/v1.0_module2_first_dev_container)
+
+[module 2 theory](theory/module_2/theory.md)
+
 ---
 
 # Module 3 — Understanding `devcontainer.json`
